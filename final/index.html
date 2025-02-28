@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navBar.css" />
+    <link rel="stylesheet" href="css/footerNav.css" />
+    <link rel="stylesheet" href="css/textBox.css" />
+    <!-- This is my home page -->
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image above it -->
+        <img class="img" src="images/img.webp" alt="Image" />
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>                 
+         </ul>
+      </nav>
+    </header>
+    <h1 class="text-center">Home Page:</h1>
+
+    <h2>Threadies and Headies</h2>
+    <section id="homeInformation">
+        <!-- <h2>Threadies and Headies</h2> -->
+        <p>&nbsp;&nbsp;Threadies and Headies is a Group dedicated to creating safe
+         easy ways to buy and sell clothes. <br>&nbsp;&nbsp;More about our group is in the green
+         box to the right. --------------------------------------------------------> <br></p>
+         <!-- This is my label, input, and button asking the user what their favorite clothing item is. It then tells the user something based on what they type -->
+         <label for="favoriteClothes">Type Your Favorite Clothing Item: </label>
+         <input id="favoriteClothes" type="text" />
+         <button onclick="clothingButton()" id="clothingClick">Confirm</button>
+         <p id="clothingOutput">Whats Your Favorite Clothing Item? (Please type in all lowercased letters)</p>
+         <p id="notValidMsg"></p>
+         <!-- This is my home page information -->
+         <p><br>&nbsp;&nbsp;Each tab in the navigation bar is explained below. </p>
+         <br>
+        <p>&nbsp;&nbsp;To buy products on this website click the products tab on the navigation
+         bar. Some of our <br>&nbsp;&nbsp;products, along with visual and size descrcriptions, will 
+         include a text to tell the user how <br>&nbsp;&nbsp;and where the clothes came from.   </p>
+        
+        <p>&nbsp;&nbsp;We do different events and deals weekly, keep updated by favoriting our
+         Events and Deals tab!     </p>
+        
+        <p>&nbsp;&nbsp;All of our contact information and physical location is on the Contacts page.</p>     
+        
+        <p>&nbsp;&nbsp;If your looking to learn more information about us, then click on the about
+         us tab. It <br>&nbsp;&nbsp;describes things like our stock, how we got to where we are, and why we do what we do.    </p>
+
+        <p>&nbsp;&nbsp;The javascript tab explains all the important javascript that went 
+         into this website.</p> 
+    </section>
+
+    <!-- This is my home page text box -->
+    <aside class="homeBox">
+        <nav>
+           <h1>Our Group Mission:</h1>
+           
+           <p>Headies and Threadies was created by a group of friends who came together 
+             to sell clothes. We started Headies and Threadies because of our own personal 
+             experiences. We want to create a safe relaible space for people to buy and sell
+             clothes. Currently, our main clothing items are vintage clothing and collectables. 
+             But, as we evolve as a company, the variety of clothing items will only grow. Overall
+             we will provide a site to check our stock, an in store location, and a way for users
+             to sell their own clothes.     </p>
+
+        </nav>
+     </aside>
+     
+
+<!-- I was planning to make this links to something like other clothing sites or
+   the "cool outfits of the week". Im not sure what i will put yet  -->
+    <footer>
+      <nav id="footerTags">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>            
+         </ul>         
+      </nav>
+   </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

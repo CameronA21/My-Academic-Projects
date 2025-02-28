@@ -1,0 +1,343 @@
+/*
+This is my gradient for my navbar
+*/
+nav#navBar ul li {
+	background: linear-gradient(345deg, rgb(172, 232, 172),
+	rgb(21, 35, 21) 80%);
+	display: block;
+	float: left;
+	text-align: center;
+	width: 16.5%;	
+}
+
+nav#navBar ul li a {	
+	display: block;
+	height: 40px;	
+	text-align: center;
+	line-height: 2.5em;	
+	color: white;
+}
+
+/* I can do this in javascript instead along with the linear gradient at the top */
+/*
+This is what flips the gradient when hovering your mouse over nav bar.
+*/
+nav#navBar a:hover, nav#navBar a:active {
+	background: linear-gradient(345deg, rgb(24, 40, 24), rgb(166, 227, 166)
+	 70%);
+}
+
+.text-center {
+	text-align: center;
+}
+
+/*
+This is to move the image on the top of the page
+*/
+body > header > img {
+	display: block;
+	max-height: 180px;
+	width: 100%;
+}
+
+/*
+This changes the size of my font on the home page
+*/
+#homeInformation {
+	font-size: 18px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+
+  /*
+This is my output for the textbox on the homepage
+*/
+#clothingOutput {
+	font-size: 16px;
+	color: green;
+}
+
+/* These will be my media queries
+   I put it here because every page has a navbar */
+   /*
+Media queries change the page based on different sizes of screens.
+*/
+   @media (min-width: 1601px) {
+
+	
+  
+	.img1 {
+		margin-top: 10px;
+	}
+	.fig1 {
+		display: auto;
+	}
+
+	.img2 {
+		display: auto;
+	}
+	.fig2 {
+		display: auto;
+	}
+
+	.img3 {
+		display: auto;
+	}
+	.fig3 {
+		display: auto;
+	}
+
+	/* need to fix this */
+	.img4 {
+		display: block;
+		max-width: 50%;
+		max-height: 50%;
+		
+	}
+	.fig4 {
+		display: auto;
+	}
+
+	.img5 {
+		display: auto;
+	}
+	.fig5 {
+		display: auto;
+	}
+
+	.img6 {
+		display: auto;
+	}
+	.fig6 {
+		display: auto;
+	}
+
+   }
+@media (min-width: 1281px) and (max-width: 1600px) {
+  
+	/* this one is fine */
+
+	.img1 {
+		margin-top: 10px;
+	}
+	.img2 {
+		display: auto;
+	}
+	.img3 {
+		display: auto;
+	}
+	.img4 {
+		margin-top: 100px;
+	}
+	.img5 {
+		display: auto;
+	}
+	.img6 {
+		display: auto;
+	}
+	
+	}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	
+	.img4 {
+		display: block;
+		max-width: 50%;
+		max-height: 50%;
+		
+	}
+	
+	}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+	.homeBox {
+		height: 200%;
+		
+	}
+
+	.img4 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-right: 240px;
+		
+	}
+	
+	}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+	.homeBox {
+		height: 200%;
+	}
+
+	.img4 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-right: 240px;
+		
+	}
+	.fig4 {
+		display: block;
+	}
+
+	.img5 {
+		display: block;
+		max-width: 40%;
+		max-height: 40%;
+		padding-top: 240px;
+		padding-right: 500px;
+		
+	}
+	.fig5 {
+		display: block;
+	}
+
+	.img6 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-right: 240px;
+		
+	}
+	.fig6 {
+		display: block;
+	}
+
+		
+	}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.homeBox {
+		height: 200%;
+	}
+
+	.img4 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-right: 240px;
+		
+	}
+	.fig4 {
+		display: block;
+	}
+
+	.img5 {
+		display: block;
+		max-width: 40%;
+		max-height: 40%;
+		padding-top: 240px;
+		padding-right: 500px;
+		
+	}
+	.fig5 {
+		display: block;
+	}
+
+	.img6 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-right: 240px;
+		
+	}
+	.fig6 {
+		display: block;
+	}
+		
+	}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+	
+	.homeBox {
+		height: 200%;
+	}
+
+	.img1 {
+		padding-left: 100px;
+	}
+	.fig1 {
+		display: auto;
+	}
+
+	.img2 {
+		padding-left: 200px;
+	}
+	.fig2 {
+		display: auto;
+		padding-left: 100px;
+	}
+
+	.img3 {
+		display: auto;
+		padding-right: 400px;
+	}
+	.fig3 {
+		display: auto;
+	}
+
+	.img4 {
+		display: block;
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 710px;
+		padding-right: 270px;
+		
+	}
+	.fig4 {
+		display: block;
+		padding-top: 30px;
+		
+	}
+
+	.img5 {
+		display: block;
+		max-width: 40%;
+		max-height: 40%;
+		padding-top: 350px;
+		padding-right: 580px;
+		
+	}
+	.fig5 {
+		display: block;
+		padding-left: 300px;
+	}
+
+	.img6 {
+		max-width: 30%;
+		max-height: 30%;
+		padding-top: 240px;
+		padding-left: 400px;
+		
+	}
+	.fig6 {
+		display: block;
+	}
+
+	.homeBox {
+		display: contents;
+	}
+
+		#textBox1{
+			min-height: 200%;
+		}
+		#textBox2{
+			min-height: 200%;
+			
+		}
+	}
+	

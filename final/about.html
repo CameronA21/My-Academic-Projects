@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navBar.css" />
+    <link rel="stylesheet" href="css/footerNav.css" />
+    <link rel="stylesheet" href="css/aboutTextBox.css" />
+    <!-- This is my about us page -->
+    <title>About Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image above it -->
+        <img class="img" src="images/img.webp" alt="Image" />
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>                 
+         </ul>
+      </nav>
+    </header>
+    <h1 class="text-center">About Us:</h1>
+
+<!-- This is my first text box (top left) for my about us page -->
+    <aside id="aboutBox1">
+      <nav>
+         <h1>Who are we?</h1>
+         
+         <p>Threadies and Headies was started when a group of friends found an
+            interest in buying clothes. This passion evolved when we started going to 
+            the goodwill bins. From this, we realized we could make a profit from the 
+            clothes obtained from the bins. This lit the fire for our passion of clothes. From
+            there we kept expanding our stock as much as possible until we became the 
+            group we are today. We have had our hiccups along the way, but nothing has stoped us
+            from creating a safe place to buy and sell clothes.        </p>
+
+      </nav>
+   </aside>
+
+   <!-- This is my second text box (top right) for my about us page -->
+   <aside id="aboutBox2">
+      <nav>
+         <h1>How did we get here?</h1>
+         
+         <p>We started out going to the bins to get a small amount of clothes in order to sell it.
+            But, the only clothes we gathered from the bins was vintage.
+         With this said, the clothing items would sell for more than the average
+         shirt. This allowed us to slowly increase our stock until we became the company you see today. </p>
+
+      </nav>
+   </aside>
+
+   <!-- This is my third text box (bottom) for my about us page -->
+   <aside id="aboutBox3">
+      <nav>
+         <h1>Why do we do this?</h1>
+         
+         <p>Like many others, we have had negative experiences with clothing websites/ companies.
+            After this, we decided to create a completely safe and easy way to buy and sell clothes.
+            Our group understand the passion that comes from clothing and we want to share that passion with everyone.         </p>
+
+      </nav>
+   </aside>
+
+   <!-- This form is for any questions the user may have. It also validates the form -->
+      <form name="questionsForm" id="questionsForm" action="">
+
+        <label for="questionsInput" id="questionsInput">Questions Comments or Concerns: </label>
+        <input id="questions" type="text" name="questions" placeholder="Type Here" onkeyup="validateForm()">
+         <br>
+        <input id="questionsSubmit" type="submit" value="Submit" disabled="disabled">
+        
+      </form>
+
+   <p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+   </p>
+
+<!-- I was planning to make this links to something like other clothing sites or
+   the "cool outfits of the week". Im not sure what i will put yet  -->
+    <footer>
+      <nav id="footerTags">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>            
+         </ul>         
+      </nav>
+   </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

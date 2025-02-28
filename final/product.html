@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navBar.css" />
+    <link rel="stylesheet" href="css/footerNav.css" />
+    <!-- This is my products page -->
+    <title>Products Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image above it -->
+        <img class="img" src="images/img.webp" alt="Image" />
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>                 
+         </ul>
+      </nav>
+    </header>
+    <h1 class="text-center">Products:</h1>
+
+    <!-- These are images of clothing items with a figcaption providing a description -->
+    <section id="products">
+         <div class="clothingItems">
+            <figure>
+           <img src="images/Clothing1.png" class="img1">
+           <figcaption class="fig1">This is a black<br> sweatshirt from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>
+           <img src="images/Clothing2.jpg" class="img2"> 
+           <figcaption class="fig2">This is a gray <br> t-shirt from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>        
+           <img src="images/Clothing3.png" class="img3">
+           <figcaption class="fig3">This is a grey<br> t-shirt from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>
+           <img src="images/Clothing4.jpg" class="img4">
+           <figcaption class="fig4">This is a black<br> sports shirt from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>
+           <img src="images/Clothing5.png" class="img5">
+           <figcaption class="fig5">This is a white<br> sweatshirt from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>
+           <img src="images/Clothing6.jpg" class="img6">
+           <figcaption class="fig6">This is a grey<br> long sleeve from<br>(year here), the<br> size is ____. <br> it was obtained <br> at _______.</figcaption>
+         </figure>
+         </div>              
+    </section>
+
+    <!-- These buttons change the background color -->
+    <button onclick="changeColor()">Change background color to black!</button>
+    <button onclick="changeColor2()">Change background color to white!</button>
+    <button onclick="changeColor3()">Change background color to blue!</button>
+    <button onclick="changeColor4()">Change background color to green!</button>
+    <button onclick="changeColor5()">Change background color to purple!</button>
+
+<!-- I was planning to make this links to something like other clothing sites or
+   the "cool outfits of the week". Im not sure what i will put yet  -->
+    <footer>
+      <nav id="footerTags">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="event.html">Events and Deals</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="js.html">javascript projects</a></li>            
+         </ul>         
+      </nav>
+   </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

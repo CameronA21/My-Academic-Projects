@@ -1,0 +1,17 @@
+/*
+This is my textbox for the home page
+*/
+aside {
+	border: 4px double rgb(44, 94, 60);
+	box-shadow: rgba(52, 94, 52, 0.4) 0px 0px 20px 10px;
+	background-color: rgba(126, 210, 118, 0.66);
+	float: left;
+    position: relative;
+    margin-left: 65%;
+	margin-right: 15%;
+    margin-bottom: 10px;
+    margin-top: -460px;
+	padding: 20px;
+	width: 26%;	
+    height: 340px;
+}
