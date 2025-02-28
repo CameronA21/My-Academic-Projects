@@ -1,0 +1,52 @@
+/* This is my styling for my footer */
+footer {
+	background-color: #FC4445;
+	color: black;	
+	display: block;
+	padding: 30px;
+	line-height: 2em;
+	text-decoration: underline;
+	margin-left: -8px;
+	margin-bottom: -8px;
+	width: 102%;
+}
+/* my first media query (all my css) is for a desktop */
+/* my second media query is for tablets and other large devices */
+/* REQUIRED: media queries added 12-11-23 */
+@media (max-width: 1201px) {
+
+	.vintage {
+		visibility: hidden;
+	}
+	
+	#contact {
+		max-height: 700px;
+		max-width: 700px;
+	}
+	
+	.clothing1 {
+		max-height: 400px;
+		max-width: 200px;
+	}
+	
+   }
+/* my third media query is for phones and other small devices */
+@media (min-width: 200px) and (max-width: 700px) {
+  
+	.vintage {
+		visibility: hidden;
+		max-height: 200px;
+		max-width: 100px;
+	}
+	
+	#contact {
+		max-height: 400px;
+		max-width: 400px;
+	}
+	
+	.clothing1 {
+		max-height: 200px;
+		max-width: 100px;
+	}
+	
+	}

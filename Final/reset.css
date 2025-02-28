@@ -1,0 +1,8 @@
+/* REQUIRED: reset styles added 12-11-23 */
+p, h1, h2, h3, ul, figcaption, footer
+{
+	font-family: Times ,sans-serif, Arial;
+	word-wrap: normal;
+	color: black;
+	margin-left: 5px;
+}

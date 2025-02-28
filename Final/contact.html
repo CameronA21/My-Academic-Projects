@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--REQUIRED: meta-data added 12-11-23-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Contact Page">
+	<meta name="description" content="Threadies and Headies contact page, here you can find all of our contact information.">
+	<meta name="keywords" content="Vintage clothing, clothing, Threadies and Headies, pants, shirts">
+	<meta name="author" content="Cameron Anderer">
+    <link rel="stylesheet" href="navBar.css" >
+	<link rel="stylesheet" href="footer.css" >
+	<link rel="stylesheet" href="reset.css" >
+ 
+    <!-- This is my contact page -->
+    <title>Contact and Location Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image or my logo above it *** need to find/ create image or logo still 
+	  *********************************	  need to find/ create image or logo still (I put one there as a placeholder) -->
+        <img class="img" src="Images/roadView2.avif" alt="Image of a lake." >
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stock.html">Stock</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+                           
+         </ul>
+      </nav>
+    </header>
+	<!-- *** I need  to style my title -->
+    <h1 class="text-center" id="textAnimation2">Contact and Location:</h1>
+
+	<!-- This is my contact information -->
+    <section id="contactInformation">
+         <p>Our current in store location is in Phoenix, Mesa. The Address is 
+         12345 S Number St #99. We provide free water, a public bathroom, and a safe place to sell and buy clothes.        </p>   
+         <p>You can contact us through any of the phone numbers or emails below. Any questions comments or concerns can be posted on the about us page</p>
+         <ul>
+            <li>Store Number: 438-342-6565</li>
+            <li>Personal Number: 238-362-7878</li>
+            <li>Store Manager Number: 264-545-9090</li>
+            <li>Company Email: ThreadiesandHeadies@gmail.com</li>
+            <li>Personal Email: somepersonalemail@gmail.com</li>
+         </ul>                
+    </section>
+	
+	<!--REQUIRED: form tag added (this includes maxlength, 4 input boxes, a fieldset, a legend, 2 data types,and a form.) 12-11-23-->
+	<form>
+		<fieldset>
+			<legend>Please enter your information, we may contact you regarding your message. All fields are required, the textbox is valid if it is green and invalid if it is red</legend>
+			
+			<!--REQUIRED: borders added 12-11-23-->
+			<div>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname" maxlength="50" placeholder="enter your first name here"
+					   required autocomplete="given-name" >
+			</div>
+			<div>	   
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname" maxlength="50" placeholder="enter your Last name here"
+					   required autocomplete="family-name">
+			</div>
+			<div>
+				<label for="lname">Phone number:</label>
+				<input type="tel" id="pnumber" name="pnumber" maxlength="50" placeholder="enter your phone number"
+					   required autocomplete="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			</div>
+			<div>	   
+				<label for="lname">Requests and orders:</label>
+				<input type="text" id="orders" name="orders" maxlength="500" placeholder="Please enter any requests or orders you have here"
+				   required autocomplete="off">
+			</div>
+			
+			<input type="submit" value="Submit" id="submitButton">
+			<input type="reset" value="Reset" id="resetButton">
+			
+		</fieldset>
+	</form>
+
+    <!-- This is a picture with a fig caption -->
+    <article>
+      <h1 class="text-center">This is us when you use our website over our competitors</h1>
+      <figure id="contactPicture">
+              <img id="contact" src="Images/worker.jpg" alt="Very happy worker looking at a tablet." >
+              
+      </figure>
+	</article>
+
+<!-- *** I was planning to make this links to something like other clothing sites or
+   the "cool outfits of the week". Im not sure what i will put yet  -->
+   <!--REQUIRED: address tag added 12-11-23-->
+    <footer>
+      <nav id="footerTags">
+         <address style="text-align:center;">
+            Threadies and Headies &#183; 
+            123 S Side Street, Mesa, AZ 84932 &#183;
+            (123) 456-7899
+         </address>             
+      </nav>
+   </footer>
+   
+</body>
+</html>

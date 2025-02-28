@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--REQUIRED: meta-data added 12-11-23-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="About Page">
+	<meta name="description" content="Threadies and Headies about page, this is where you will find all of our personal information.">
+	<meta name="keywords" content="Vintage clothing, clothing, Threadies and Headies, pants, shirts">
+	<meta name="author" content="Cameron Anderer">
+    <link rel="stylesheet" href="navBar.css" >
+	<link rel="stylesheet" href="footer.css" >
+	<link rel="stylesheet" href="reset.css" >
+ 
+    <!-- This is my about page -->
+    <title>About Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image or my logo above it *** need to find/ create image or logo still
+*********************************	  need to find/ create image or logo still (I put one there as a placeholder) -->
+        <img class="img" src="Images/roadView2.avif" alt="Image of a lake." >
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stock.html">Stock</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+                           
+         </ul>
+      </nav>
+    </header>
+	<!-- *** I need  to style my title -->
+    <h1 class="text-center" id="textAnimation2">About Us:</h1>
+
+	<!-- This is my first text box (top left) for my about us page -->
+    <aside id="aboutBox1">
+      <nav>
+	  <!--REQUIRED: text level element added 12-11-23-->
+         <h1><strong>Who are we?</strong></h1>
+         
+         <p class="about">Threadies and Headies was started when a group of friends found an
+            interest in buying clothes. This <mark>passion</mark> evolved when we started going to 
+            the goodwill bins. From this, we realized we could make a profit from the 
+            clothes obtained from the bins. This lit the fire for our passion of clothes. From
+            there we kept expanding our stock as much as possible until we became the 
+            group we are today. We have had our hiccups along the way, but nothing has stoped us
+            from creating a safe place to buy and sell clothes.        </p>
+
+      </nav>
+   </aside>
+   
+   <!-- This is my second text box (top right) for my about us page -->
+   <aside id="aboutBox2">
+      <nav>
+         <h1><strong>How did we get here?</strong></h1>
+         
+         <p class="about">We started out going to a place called the bins where you can get a large amount of clothes for a lower price than normal.
+            But, most if not all of the clothes we gathered from the bins was vintage.
+         With this said, the clothing items would sell for more than your average clothing item.
+		 This allowed us to slowly increase our stock until we became the company you see today. </p>
+
+      </nav>
+   </aside>
+   
+   <!-- This is my third text box (bottom left) for my about us page -->
+   <aside id="aboutBox3">
+      <nav>
+	  <!--REQUIRED: text level element added 12-11-23-->
+         <h1><strong>Why do we do this?</strong></h1>
+         
+         <p class="about">Like many others, we have had negative experiences with clothing websites/ companies.
+            After this, we decided to create a <em>completely safe and easy way to buy and sell clothes</em>.
+            Our group understands the passion that can come from clothing and we want to share that passion with everyone.         </p>
+
+      </nav>
+   </aside>
+   
+   <!-- This is my fourth text box (bottom right) for my about us page -->
+   <aside id="aboutBox4">
+      <nav>
+         <h1><strong>Customer satisfaction:</strong></h1>
+		 
+         <!--REQUIRED: blockquote tag added 12-11-23-->
+         <p class="about"> One of Threadies and Headies top priorities is to <em>ensure the customers needs are heard and properly dealt with.</em>
+			 If you are in need of quick contact, please navigate to our <a href="contact.html">contacts</a> page.
+			 If you have comments or concerns, you can type them in the textbox below and we will read them and act on them as soon as possible.
+			 Customer satisfactions is always a neccesity, as stated by the Zendesk Blog...
+			 </p>
+			 <blockquote cite="https://www.zendesk.com/blog/3-steps-achieving-customer-satisfaction-loyalty/#:~:text=hold%20you%20back.-,The%20importance%20of%20customer%20satisfaction,and%20a%20stronger%20brand%20reputation.">
+			 "Customer satisfaction is important because it illustrates whether your customer base likes what you’re doing. Research shows that high satisfaction leads to greater customer retention, higher lifetime value, and a stronger brand reputation."
+			 </blockquote>
+		<!-- </p> -->
+      </nav>
+   </aside>
+   
+   <!-- This form is for any questions the user may have. It also validates the form (middle) -->
+   <form name="questionsForm" id="questionsForm" >
+
+        <label for="questions" id="questionsInput">Questions Comments or Concerns: </label>
+        <input id="questions" type="text" name="questions" placeholder="Type Here" onkeyup="validateForm()">
+         <!-- dont forget to properly place this as well as the form -->
+        <input id="questionsSubmit" type="submit" value="Submit">
+        
+      </form>
+
+<!-- *** I was planning to make this links to something like other clothing sites or
+   the "cool outfits of the week". Im not sure what i will put yet  -->
+   <!--REQUIRED: address tag added 12-11-23-->
+    <footer>
+      <nav id="footerTags">
+         <address style="text-align:center;">
+            Threadies and Headies &#183; 
+            123 S Side Street, Mesa, AZ 84932 &#183;
+            (123) 456-7899
+         </address>             
+      </nav>
+   </footer>
+   
+</body>
+</html>

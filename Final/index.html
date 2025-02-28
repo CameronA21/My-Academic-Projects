@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--REQUIRED: meta-data added 12-11-23-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Home Page">
+	<meta name="description" content="Threadies and Headies home page, this page describes our group and what we stand by.">
+	<meta name="keywords" content="Vintage clothing, clothing, Threadies and Headies, pants, shirts">
+	<meta name="author" content="Cameron Anderer">
+    <link rel="stylesheet" href="navBar.css" >
+	<link rel="stylesheet" href="footer.css" >
+	<link rel="stylesheet" href="reset.css" >
+ 
+    <!-- This is my home page -->
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+      <!-- This is my nav bar with an image or my logo above it ********************
+*********************************	  need to find/ create image or logo still (I put one there as a placeholder) -->
+        <img class="img" src="Images/roadView2.avif" alt="Image of a lake." >
+      <nav class="horizontal" id="navBar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stock.html">Stock</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About Us</a></li>  
+                           
+         </ul>
+      </nav>
+    </header>
+	<!-- *** I need  to style my title -->
+    <h1 class="text-center" id="textAnimation2">Home Page:</h1>
+
+    <h2 class="textAnimation">Threadies and Headies</h2>
+    <section id="homeInformation">
+        
+        <p class="homeArrow" id="overflow">Threadies and Headies is a Group dedicated to creating safe
+         easy ways to buy and sell clothes. We have provided an audio clip which contains music, this music is a sound representation of our attidues at Threadies and Headies! More about our group and website is below... </p>
+		 	  
+			  <!--REQUIRED: figure with figcaption added 12-11-23-->
+		 <figure class="vintage">
+			<img src="Images/vintage.jpg" alt="Image of 3 men wearing vintage clothes." style="width:40%">
+				  <!--REQUIRED: text level element added 12-11-23-->
+			<figcaption ><i>Vintage clothing from the 70's</i></figcaption>
+		</figure>
+        
+		<!--REQUIRED: video/ audio added 12-11-23-->
+			<audio controls>  
+				<source src="happy.mp3" type="audio/mp3" > 
+				<p><em>To play this audio clip, your browser needs to support  HTML 5.</em></p> 
+			</audio> 
+         
+         <!-- This is my home page information -->
+         <p class="homeArrow">Each tab in the navigation bar is explained here. </p>
+         
+        <p>To buy products on this website click the <a href="stock.html">stock</a> tab on the navigation
+         bar. Some of our products, along with visual and size descrcriptions, will 
+         include a text to tell the user how and where the clothes came from.   </p>
+        
+        
+        <p>All of our contact information and physical location is on the <a href="contact.html">contacts</a> page.</p>     
+        
+        <p>If your looking to learn more information about us, then click on the <a href="about.html">about us</a> tab. It describes things like our stock, how we got to where we are, and why we do what we do.    </p>
+
+        
+    </section>
+
+    <!-- This is my home page text box -->
+    <aside class="homeBox">
+        <nav>
+           <h1 class="textAnimation">Our Group Mission:</h1>
+           
+           <p>Headies and Threadies was created by a group of friends who came together 
+             to sell clothes. We started Headies and Threadies because of our own personal 
+             experiences. We want to create a safe relaible space for people to buy and sell
+             clothes. Currently, our main clothing items are vintage clothing and collectables. 
+             But, as we evolve as a company, the variety of clothing items will only grow. Overall
+             we will provide a site to check our stock, an in store location, and a way for users
+             to sell their own clothes.     </p>
+
+        </nav>
+     </aside>
+	 
+	 <!-- *** I want to enhance this form to validate the textbox and to give the user a message -->
+	 <form>
+	 
+		<fieldset id="clothingInfo">
+			
+			<legend><b>Tell Us About new Clothing!</b></legend>
+			<textarea name="delAddress" id="addressBox" placeholder="Please enter anything we may not know."></textarea>
+				
+			<input id="submitHome" type="submit" value="Submit Information">
+			
+		</fieldset>
+     </form>
+
+<!-- This is my footer with the company information -->
+   <!-- I may change this -->
+   <!--REQUIRED: address tag added 12-11-23-->
+    <footer>
+      <nav id="footerTags">
+         <address style="text-align:center;">
+            Threadies and Headies &#183; 
+            123 S Side Street, Mesa, AZ 84932 &#183;
+            (123) 456-7899
+         </address>       
+      </nav>
+   </footer>
+   
+</body>
+</html>
+
+<!-- 
+metadata ********done
+reset styles ***********done
+dynamic styling of navigation ************done
+a minimum of 5 images  *******5/5done
+a video or audio *************done
+5 different text-level elements ************done
+figure with figcaption ***********done
+text effect *********done
+address tag ********done
+blockquote tag *******done
+a pseudo-element **********done
+background *********done
+border ************done
+form *************done
+media queries *********done
+table.  *************** done
+appropriate spelling and grammar throughout the site (This can be the kiss of death for a website! Have another set of eyes proofread your site. You may NOT have lorem ipsum placeholder text in your final submission!
+-->

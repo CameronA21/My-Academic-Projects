@@ -1,0 +1,190 @@
+/* REQUIRED: This is my dynamic styling for the navBar */
+nav#navBar ul li {
+	background: linear-gradient(345deg, #FC4445,
+	#3FEEE6 70%);
+	display: block;
+	float: left;
+	text-align: center;
+	width: 24.5%;	
+}
+/* REQUIRED: This is my dynamic styling for the navBar links */
+nav#navBar ul li a {	
+	display: block;
+	height: 40px;	
+	text-align: center;
+	line-height: 2.5em;	
+	color: white;
+}
+/* This is my styling for the navBar when the user hovers their mouse over an active link */
+nav#navBar a:hover, nav#navBar a:active {
+	background: linear-gradient(345deg, #3FEEE6, #FC4445
+	 70%);
+}
+/* This is just a class used to quickly center things */
+.text-center {
+	text-align: center;
+}
+
+/* REQUIRED: background color added 12-11-23 */
+html {
+	background-color: #CAFAFE;
+}
+/* This is my styling for when the user submits their information about "new clothing" */
+#addressBox:focus:valid {
+	background: rgb(220, 255, 220);  
+}
+
+/* This is my styling for the image on the top of the page */
+.img {
+	 width: 110%;
+	 height: 400px;
+	 margin-top: -8px;
+	 margin-left: -8px;
+	 
+}
+
+p {
+	word-wrap: normal;
+}
+
+/* This is my styling for my image on the home page */
+.vintage {
+	float: right;
+	margin-right: -250px;
+	margin-top: -80px;
+}
+
+/* This is a text animation for my page descriptions */
+/* REQUIRED: text effects added 12-11-23 */
+.textAnimation {
+	color: #55BCC9;
+	font-size: 2em;
+	letter-spacing: 0em;
+	text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+	transition: color 1.5s ease-in 0.5s,
+				font-size 2s ease,
+				letter-spacing 2s ease-out,
+				text-shadow 2s cubic-bezier(0.6, 0, 0.8, 0.5);
+} 
+
+.textAnimation:hover {
+	color: #FC4445;
+	font-size: 3em;
+	letter-spacing: 0.08em;
+	text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+} 
+	
+/* REQUIRED: text effects added 12-11-23 */
+#textAnimation2 {
+	font-size: 50px;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+    -225deg,
+    #FC4445 0%,
+    #3FEEE6 30%,
+    #55BCC9 70%,
+    #CAFAFE 100% );
+	background-size: 200% auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* REQUIRED: border added 12-11-23 */
+#fname:invalid {
+  border: 2px dashed red;
+}
+
+#fname:valid {
+  border: 2px solid green;
+}
+
+#lname:invalid {
+  border: 2px dashed red;
+}
+
+#lname:valid {
+  border: 2px solid green;
+}
+
+#pnumber:invalid {
+  border: 2px dashed red;
+}
+
+#pnumber:valid {
+  border: 2px solid green;
+}
+
+#contact {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#orders {
+	margin-top: 10px;
+	width: 28%;
+}
+
+#pnumber {
+	margin-top: 10px;
+}
+
+#fname {
+	margin-top: 10px;
+}
+
+#lname {
+	margin-top: 10px;
+}
+
+/* REQUIRED: Pseudo element added 12-11-23 */
+.homeArrow::after {
+	content: "\25be";
+	color: red;
+}
+
+.clothing1 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-height: 500px;
+	max-width: 250px;
+	border-radius: 50px;
+}
+
+.imageText1 {
+	text-align: center
+}
+
+.imagePrice1 {
+	text-align: center
+}
+
+/* the first column */
+td:nth-child(1) {
+  width: 400px;
+  
+  }
+
+/* the second column */
+td:nth-child(2) {
+  width: 200px;
+  
+}
+
+/* the third column */
+td:nth-child(3) {
+  width: 100px;
+  
+}
+
+#overflow {
+	max-width: 905px;
+}
